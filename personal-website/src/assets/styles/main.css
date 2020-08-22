@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #eee;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: url('../images/siteBG.jpg') no-repeat center fixed;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+}
+
+/* Container bit */
+.container{
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.section-heading h1{
+    font-size: 6rem;
+    color: rgba(255, 255, 255, .6);
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+
+.section-heading h1::before
+.section-heading h1::after{
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(255, 255, 255, 0.75)
+}
+
+.section-heading h1::before{
+    width: 10rem;
+    height: 3px;
+    border-radius: .8rem;
+}
+
+.section-heading h1::after{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    bottom: -.9rem;
+}
+/* end of container bit */
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+/* Navigation options */
+.top-nav{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: -100vh;
+    background-color: #16162d;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+}
+
+.nav-list{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 0.2rem;
+}
+
+.nav-link{
+    font-family: sans-serif;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    background: linear-gradient(to top, #ffe838, #fd57df);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-nav.open{
+    top: 0;
+    border-radius: initial;
+}
+
+/* Toggler bars portion */
+.menu-toggler{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1500;
+    transition: transform 650ms ease-out;
+}
+
+.menu-toggler.open{
+    transform: rotate(-45deg);
+}
+
+.bar{
+    background: linear-gradient(to right, #ffe838, #fd57bf);
+    width: 100%;
+    height: 4px;
+    border-radius: .8rem;
+}
+
+.bar.half{
+    width: 50%;
+}
+
+.bar.start{
+    transform-origin: right;
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+.open .bar.start{
+    transform: rotate(-450deg) translate(.8rem);
+}
+
+.open .bar.end{
+
+    transform: rotate(-450deg) translate(-.8rem);
+}
+
+.bar.end{
+    align-self: flex-end;
+    transform-origin: left;
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+/* Landing page section */
+.landing-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.landing-text h1{
+    font-size: 7rem;
+    font-family: sans-serif;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+
+.landing-text h6{
+    font-size: 3rem;
+    font-weight: 350;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 3rem;
+}
+.landing-icons{
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+}
+
+/* About me Section */
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.about-heading h1{
+    font-size: 6rem;
+    opacity: .6;
+}
+
+.about-heading h6{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.profile-img img{
+    flex: 1;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    width: 350px;
+    height: 350px;
+    float: left;
+}
+
+.about-details p{
+    margin-right: 5rem;
+}
+
+.about-details{
+    flex: 1;
+}
+
+.social-media{
+    margin-top: 5rem;
+}
+
+.social-media i{
+    font-size: 5rem;
+    transition: color 650ms;
+}
