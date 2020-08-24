@@ -14,6 +14,7 @@ body{
     width: 100%;
     height: 100%;
     background: url('../images/siteBG.jpg') no-repeat center fixed;
+    background-size: cover;
 }
 
 a{
@@ -30,6 +31,10 @@ img{
     width: 100%;
 }
 
+section{
+    padding: 6rem 0;
+}
+
 /* Container bit */
 .container{
     width: 90%;
@@ -44,6 +49,12 @@ img{
     margin-bottom: 10rem;
 }
 
+.section-heading h6{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
 .section-heading h1{
     font-size: 6rem;
     color: rgba(255, 255, 255, .6);
@@ -51,17 +62,18 @@ img{
     font-weight: 300;
     position: relative;
     margin-bottom: 1rem;
+    margin-top: 10rem;
     font-weight: 200;
 }
 
-.section-heading h1::before
+.section-heading h1::before,
 .section-heading h1::after{
     content: '';
     position: absolute;
     bottom: -.5rem;
     left: 50%;
-    transform: translate(-50%);
-    background-color: rgba(255, 255, 255, 0.75)
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .section-heading h1::before{
@@ -74,7 +86,11 @@ img{
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
-    bottom: -.9rem;
+    bottom: -1rem;
+}
+
+.has-margin-right{
+    margin-right: 5rem; 
 }
 /* end of container bit */
 header{
@@ -92,6 +108,8 @@ header{
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
+    z-index: 2;
+    /* z-index: 2; Make sure the transition is not overlaped */
 }
 
 .nav-list{
@@ -123,6 +141,7 @@ li{
 .top-nav.open{
     top: 0;
     border-radius: initial;
+    z-index: 2;
 }
 
 /* Toggler bars portion */
@@ -244,24 +263,327 @@ li{
     flex: 1;
     margin-right: 5rem;
     margin-left: 5rem;
-    width: 350px;
-    height: 350px;
+    width: 35rem;
+    height: 35rem;
     float: left;
+    border-radius: 50%;
+    border: 1rem solid white;
 }
 
 .about-details p{
     margin-right: 5rem;
+    margin-top: 3rem;
 }
 
 .about-details{
     flex: 1;
+    text-align: center;
 }
 
-.social-media{
-    margin-top: 5rem;
+/* Skills section */
+
+.skills{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
 }
 
-.social-media i{
-    font-size: 5rem;
-    transition: color 650ms;
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.skill h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+
+}
+
+.icon-container{
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #eeeeee;
+    background-color: #fcbf1e;
+    margin-bottom: 2rem;
+    display: flex;
+    transform: rotate(45deg);
+}
+
+.icon-container img{
+    filter: invert(100%);
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    transform: rotate(-43deg);
+}
+
+/* AWARDS SECTION */
+.awards-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.awards-description{
+    flex: 1;
+    text-align: center;
+}
+
+.awards-description h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+}
+
+.awards-description h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.awards-img{
+    flex: 2;
+    width: 50rem;
+}
+
+/* .awards-icons{
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+    margin-top: 3rem;
+} */
+
+/* experience section */
+
+.timeline ul{
+    border-left: 4px solid yellow;
+    border-radius: .8rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    position: relative;
+    padding: 5rem;
+    list-style: none;
+    text-align: left;
+    width: 70%;
+}
+
+.timeline h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.timeline .date{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+    margin-bottom:1rem;
+    position: relative;
+}
+
+.timeline .date::before,
+.timeline .date::after{
+    position: absolute;
+    display: block;
+    top: 50%;
+    /* transform: translateY(50%); */
+
+}
+
+.timeline .date::before{
+    content: attr(data-date);
+    left: -22rem;
+    text-align: right;
+    min-width: 12rem;
+    font-size: 1.5rem;
+}
+
+.timeline .date::after{
+    content: '';
+    box-shadow: 0 0 0 4px #fd57bf;
+    /* border-radius: 100%; */
+    left: -6.15rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(34, 28, 28);
+    transform: rotate(-45deg);
+}
+/* For now, this is of no need :) */
+/* 
+For now, this is of no need :)
+
+.timeline .date:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+} 
+*/
+
+/* contact form */
+.contact{
+    background-color: rgba(238, 83, 83, 0.521);
+}
+
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+form label{
+    font-size: 1.5rem;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: #fd57bf;
+}
+
+input[type='submit']{
+    width: initial;
+    background-color: #fd57bf;
+    color: #eee;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: crosshair;
+    transition: background-color 650ms;
+}
+
+input[type='submit']:hover{
+    color: #221e3f;
+    background-color: #ffe838;
+}
+
+/* Media part */
+
+@media screen and (max-width: 768px) {
+        
+    body{
+        background: url('../images/siteBG.jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+
+    .landing-text h1{
+        font-size: 7rem;
+    }
+
+    .landing-text h6{
+        font-size: 3rem;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 2rem 0;
+    }
+
+    .nav-link{
+        font-size: 4.5rem;
+    }
+
+    .about-heading h1{
+        font-size: 8rem;
+    }
+
+    .section-heading h1{
+        font-size: 3rem;
+    }
+
+    .about-details .nav-list{
+        flex-direction: initial;
+    }
+
+    .about-details li{
+        margin: 0 2rem;
+    }
+
+    .icon-container{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .icon-container img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .timeline ul{
+        margin: 0 0 0 auto;
+    }
+
+    .timeline .date::before{
+        left: -21.5rem;
+    }
+
+    /* change this */
+    .timeline .date::after{
+        left: -6.15rem;
+    }
+
+    .projects-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        font-size: 4rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.5rem;
+    }
+
+    .nav-link{
+        font-size: 3.5rem;
+    }
+
+    .about .container{
+        flex-direction: column;
+    }
+
+    .profile-img img{
+        margin: 1rem 1rem 7rem 0;
+    }
+
+    .awards-item{
+        flex-direction: column;
+    }
+
+    .awards-description{
+        margin: 0;
+
+    }
+
+    .timeline p{
+        font-size: 1.6rem;
+    }
+
+    .timeline .date::before{
+        font-size: 1.4rem;
+    }
+
+    form{
+        width: 100%;
+    }
 }

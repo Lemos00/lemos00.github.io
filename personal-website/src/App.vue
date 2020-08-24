@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <div :class="menuClass" @click="menuSelected = !menuSelected">
+      <div :class="menuClass" @click="changeMenu">
         <div class="bar half start"></div>
         <div class="bar"></div>
         <div class="bar half end"></div>
@@ -9,22 +9,22 @@
       <nav :class="navClass">
         <ul class="nav-list">
           <li>
-            <a href="app.vue" class="nav-link">Home</a>
+            <a href="#about" class="nav-link" @click="changeMenu">About me</a>
           </li>
           <li>
-            <a href="#about" class="nav-link">About me</a>
+            <a href="#skills" class="nav-link" @click="changeMenu">Skills</a>
           </li>
           <li>
-            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#experience" class="nav-link" @click="changeMenu">Experience</a>
           </li>
           <li>
-            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#projects" class="nav-link" @click="changeMenu">Projects</a>
           </li>
           <li>
-            <a href="#awards" class="nav-link">Awards</a>
+            <a href="#awards" class="nav-link" @click="changeMenu">Awards</a>
           </li>
           <li>
-            <a href="#contact" class="nav-link">Contact me</a>
+            <a href="#contact" class="nav-link" @click="changeMenu">Contact me</a>
           </li>
         </ul>
       </nav>
@@ -38,7 +38,7 @@
             <a href="https://www.linkedin.com/feed/">
               <img src="./assets/images/icons/linkedin-icon.png" alt="linkedin icon" class="landing-icons">
             </a>
-            <a href="https://devpost.com/">
+            <a href="https://devpost.com/Lemos00?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
               <img src="./assets/images/icons/devpost-png.png" alt="devpost icon" class="landing-icons">
             </a>
             <a href="mailto:webmaster@example.com">
@@ -48,36 +48,16 @@
         </div>
     </header>
     <AboutMe></AboutMe>
+    <Skills></Skills>
     <Projects></Projects>
-    <section class="awards" id="awards">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Awards</h1>
-          <h6>These are my awardss</h6>
-        </div>
-        <div class="awards-item">
-          <div class="awards-description">
-            <h6>Insight Lab @ Western University</h6>
-            <h1>Testing the experience section</h1>
-            <p>
-              awards section dummy text Experience 
-              section dummy text Experience section dummy text Experience section dummy text
-            </p>
-            <a href="#" class="cta">View details about this experience</a>
-          </div>
-          <div class="awards-img">
-            <img src="./assets/images/beach.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
+    <Awards></Awards>
     <section class="experience" id="experience">
       <div class="container">
         <div class="section-heading">
           <h1>experience</h1>
-          <h6>These are my experienceSSSSSS</h6>
+          <h6>My past work experience</h6>
         </div>
-        <div class="timeline">
+        <div class="timeline" data-aos='fade-in' data-aos-delay='300'>
           <ul>
             <li class="date" data-date="May 2020 - Aug 2020">
               <h1>Insight Lab @ Western University</h1>
@@ -116,16 +96,23 @@
 </template>
 
 <script>
-import Projects from './components/Projects.vue'
+import Skills from './components/Skills.vue'
 import AboutMe from './components/AboutMe.vue'
+import Awards from './components/Awards.vue'
+import Projects from './components/Projects.vue'
 export default {
   name: 'App',
-  components: { Projects, AboutMe },
+  components: { 
+    Skills,
+    AboutMe,
+    Awards,
+    Projects
+  },
   data() {
     return {
       menuSelected: {
         type: Boolean,
-        default: false
+        default: true
       }
     }
   },
@@ -144,13 +131,13 @@ export default {
         return 'top-nav'
       }    
     }
+  },
+  methods: {
+    changeMenu() {
+      this.menuSelected = !this.menuSelected
+    }
   }
 }
-// $(document).ready(function() {
-//   $('menu-toggler').on('click', function() {
-//     $().toggleClass('open');
-//   })
-// })
 </script>
 
 <style>
