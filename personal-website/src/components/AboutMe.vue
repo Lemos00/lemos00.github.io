@@ -12,14 +12,10 @@
             <h1>About me</h1>
           </div>
           <p data-aos='fade-right' data-aos-delay='400' class="about-text">
-            This is some dummy text for the about me section of this website! In the meantime, I will code the rest!
-            This is some dummy text for the about me section of this website! In the meantime, I will code the rest!
-            This is some dummy text for the about me section of this website! In the meantime, I will code the rest!
-            This is some dummy text for the about me section of this website! In the meantime, I will code the rest!
-            This is some dummy text for the about me section of this website! In the meantime, I will code the rest!
-            This is some dummy text for the about me section of this website! In the meantime, I will code the rest!
-            This is some dummy text for the about me section of this website! In the meantime, I will code the rest!
-            This is some dummy text for the about me section of this website! In the meantime, I will code the rest!
+            Hey there! <br />
+            I'm Gabriel, an international student from Brazil @ <a href="https://www.uwo.ca/">Western University</a>.
+            I'm currently on the second year of my Computer Science degree. 
+
           </p>
         </div>
       </div>

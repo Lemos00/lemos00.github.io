@@ -470,6 +470,10 @@ input[type='submit']:hover{
 
 /* Media part */
 @media screen and (max-width: 1000px) {
+    .landing-text h1{
+        font-size: 7rem;
+        margin: auto auto;
+    }
     .about-details{
         flex-direction: column;
     }
@@ -488,12 +492,13 @@ input[type='submit']:hover{
 @media screen and (max-width: 768px) {
         
     body{
-        background: linear-gradient(#2c003e, #45046a, #2c003e) no-repeat center fixed;
+        background: linear-gradient(rgba(44,0,62,0.45), rgba(69,4,106,0.45)) no-repeat center fixed;
         background-size: cover;
     }
 
     .landing-text h1{
         font-size: 7rem;
+        margin-top: 10rem;
     }
 
     .landing-text h6{
