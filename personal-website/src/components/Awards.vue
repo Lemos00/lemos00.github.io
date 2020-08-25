@@ -7,21 +7,34 @@
         </div>
         <div class="awards-item" data-aos='fade-in' data-aos-delay='300'>
           <div class="awards-description has-margin-right">
-            <h6>Dean's honor list (2020)</h6>
-            <h1>Testing the experience section</h1>
+            <h6>hackathon</h6>
+            <h1>Top 6 Hacks - McHacks 7</h1>
             <p>
-              awards section dummy text Experience 
-              section dummy text Experience section dummy text Experience section dummy text
+              DocInPoc was recognized as one of the Top 6 Hacks of McHacks 7, McGill's biggest hackathon  <br>
+              The prize was given to hacks that demonstrated great impact
+              within their area of influence <br> as well as a great pitch from
+              our team
             </p>
           </div>
         </div>
         <div class="awards-item" data-aos='fade-in' data-aos-delay='300'>
           <div class="awards-description has-margin-right">
-            <h6>Dean's honor list (2020)</h6>
-            <h1>Testing the experience section</h1>
+            <h6>ACADEMIC</h6>
+            <h1>Dean's honor list (2020)</h1>
             <p>
-              awards section dummy text Experience 
-              section dummy text Experience section dummy text Experience section dummy text
+              Awarded to students who had an 85% average or more throughout
+              the 2019-2020 academic year
+            </p>
+          </div>
+        </div>
+        <div class="awards-item" data-aos='fade-in' data-aos-delay='300'>
+          <div class="awards-description has-margin-right">
+            <h6>Academic</h6>
+            <h1>St john the devine - international award (medway HS)</h1>
+            <p>
+              Awarded to international students who demonstrated impressive
+              positive impact within Medway High School both in academic and
+              extra curricular activities
             </p>
           </div>
         </div>

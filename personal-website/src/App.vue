@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <canvas id="canvas1"></canvas>
     <header>
       <div :class="menuClass" @click="changeMenu">
         <div class="bar half start"></div>
@@ -49,27 +50,9 @@
     </header>
     <AboutMe></AboutMe>
     <Skills></Skills>
+    <Experience></Experience>
     <Projects></Projects>
     <Awards></Awards>
-    <section class="experience" id="experience">
-      <div class="container">
-        <div class="section-heading">
-          <h1>experience</h1>
-          <h6>My past work experience</h6>
-        </div>
-        <div class="timeline" data-aos='fade-in' data-aos-delay='300'>
-          <ul>
-            <li class="date" data-date="May 2020 - Aug 2020">
-              <h1>Insight Lab @ Western University</h1>
-              <p>
-                CABELO TA TONY COUNTRY PRA MOSTRAR Q E DE VILAO
-                LADO MAU E LADO P#$@ PRA MOSTRAR Q E P#@# COUNTRY
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
     <section class="contact" id="contact">
       <div class="container">
         <div class="section-heading">
@@ -83,8 +66,9 @@
           <input type="email" id="email" name="email" placeholder="Enter you email" required>
           <label for="email">Services:</label>
           <select name="services" id="service">
-            <option value="">Employment</option>
             <option value="">Question</option>
+            <option value="">Employment</option>
+            <option value="">Other</option>
           </select>
           <label for="subject">Subject:</label>
           <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
@@ -100,20 +84,19 @@ import Skills from './components/Skills.vue'
 import AboutMe from './components/AboutMe.vue'
 import Awards from './components/Awards.vue'
 import Projects from './components/Projects.vue'
+import Experience from './components/Experience.vue'
 export default {
   name: 'App',
   components: { 
     Skills,
     AboutMe,
     Awards,
-    Projects
+    Projects,
+    Experience
   },
   data() {
     return {
-      menuSelected: {
-        type: Boolean,
-        default: true
-      }
+      menuSelected: false
     }
   },
   computed: {
@@ -134,6 +117,9 @@ export default {
   },
   methods: {
     changeMenu() {
+      if (typeof this.menuSelected === Object) {
+        this.menuSelected = false
+      }
       this.menuSelected = !this.menuSelected
     }
   }

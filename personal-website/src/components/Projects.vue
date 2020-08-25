@@ -9,10 +9,12 @@
           <div class="projects-description">
             <h6>A* pathfinding visualizer</h6>
             <p>
-              awards section dummy text Experience 
-              section dummy text Experience section dummy text Experience section dummy text
+              This project was built entirely with <b>Python</b> with the intention of better understanding
+              how the <b>A* algorithm </b> works. With the help of tutorials and
+              some research, I was able to fully understand and build a visualizer for such algorithm
+              using the <b>pygame</b> library for python.
             </p>
-            <a href="https://github.com/Lemos00">
+            <a href="https://github.com/Lemos00/pathfinding-visualizer">
               <img src="../assets/images/icons/github-icon.png" alt="github icon"  class="project-icons">
             </a>
           </div>
@@ -22,13 +24,21 @@
         </div>
         <div class="projects-item" data-aos='fade-in' data-aos-delay='300'>
           <div class="projects-description">
-            <h6>Dean's honor list (2020)</h6>
+            <h6>Liteboard.io</h6>
             <p>
-              awards section dummy text Experience 
-              section dummy text Experience section dummy text Experience section dummy text
+              Liteboard is a lightweight lecturing platform designed as an easy/quick
+              to use way for lectures to deliver their content. <br>
+              In this project, I designed and implemented the tools used by the lecturer
+              in the whiteboard using the <b>html canvas, javascript, css and Paper.js</b>. <br>
+              Among these tools is the paint bucket, which used the four way version of the
+              flood fill algorithm to function nicely.
+
             </p>
             <a href="https://github.com/Lemos00">
               <img src="../assets/images/icons/github-icon.png" alt="github icon"  class="project-icons">
+            </a>
+            <a href="https://liteboard.io/">
+              <img src="../assets/images/icons/link-icon.png" alt="link icon"  class="project-icons">
             </a>
           </div>
           <div class="projects-img has-margin-right">
@@ -52,6 +62,7 @@ export default {
     margin-bottom: 5rem;
     margin: 1rem auto;
     width: 70%;
+    height: 30rem;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 16px;
 }
@@ -72,10 +83,11 @@ export default {
 }
 
 .project-icons {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     filter: invert(100%);
     margin-top: 3rem;
+    margin-left: 1rem;
 }
 
 .projects-description p{

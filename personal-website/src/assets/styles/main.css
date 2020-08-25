@@ -13,7 +13,7 @@ html{
 body{
     width: 100%;
     height: 100%;
-    background: url('../images/siteBG.jpg') no-repeat center fixed;
+    background: linear-gradient(#25364f, #2c7dc9, #193e72) no-repeat center fixed;
     background-size: cover;
 }
 
@@ -133,7 +133,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57df);
+    background: linear-gradient(to top, #ffe838, #e73838);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -164,7 +164,7 @@ li{
 }
 
 .bar{
-    background: linear-gradient(to right, #ffe838, #fd57bf);
+    background: linear-gradient(to right, #ffe838, #e73838);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -208,7 +208,7 @@ li{
 .landing-text h1{
     font-size: 7rem;
     font-family: sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #ffe838, #e73838);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -366,7 +366,7 @@ li{
 .timeline ul{
     border-left: 4px solid yellow;
     border-radius: .8rem;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     position: relative;
     padding: 5rem;
@@ -586,4 +586,23 @@ input[type='submit']:hover{
     form{
         width: 100%;
     }
+
+    .projects-item{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projects-item{
+        width: 100%;
+    }
+}
+
+/* Canvas styling */
+
+#canvas1{
+    position: absolute;
+    width: 100%;
+    /* background: linear-gradient(#25364f, #3d72a5, #4487e6); */
+    z-index: -1;
 }

@@ -3,7 +3,8 @@
       <div class="container">
         <div class="section-heading" id="skills">
           <h1>My skills</h1>
-          <h6>These are my favorite projects</h6>
+          <h6>technical and social skills of mine
+          </h6>
         </div>
         <div class="skills">
           <div class="skill" data-aos='fade-in' data-aos-delay='300'>
