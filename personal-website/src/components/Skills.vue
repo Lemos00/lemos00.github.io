@@ -16,14 +16,14 @@
           </div>
           <div class="skill" data-aos='fade-in' data-aos-delay='500'>
             <div class="icon-container">
-              <img src="../assets/images/icons/html-tag.png" alt="CHANGE ICON">
+              <img src="../assets/images/icons/database-icon.png" alt="CHANGE ICON">
             </div>
             <h1>Front-end</h1>
             <p>This is some dummy text for the skills section of this website! In the meantime, I will code the rest!</p>
           </div>
           <div class="skill" data-aos='fade-in' data-aos-delay='700'>
             <div class="icon-container">
-              <img src="../assets/images/icons/html-tag.png" alt="CHANGE ICON">
+              <img src="../assets/images/icons/gears.png" alt="CHANGE ICON">
             </div>
             <h1>Front-end</h1>
             <p>This is some dummy text for the skills section of this website! In the meantime, I will code the rest!</p>

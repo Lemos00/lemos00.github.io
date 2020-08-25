@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <canvas id="canvas1"></canvas>
+    <!-- <canvas id="canvas1"></canvas> -->
     <header>
       <div :class="menuClass" @click="changeMenu">
         <div class="bar half start"></div>
@@ -30,9 +30,9 @@
         </ul>
       </nav>
         <div class="landing-text">
-          <h1>Gabriel Lemos Rodrigues</h1>
-          <h6>Computer Science student at Western University</h6>
-          <div class="icons">
+          <h1 data-aos='fade-in' data-aos-delay='300'>Gabriel Lemos Rodrigues</h1>
+          <h6 data-aos='fade-in' data-aos-delay='400'>Computer Science student at Western University</h6>
+          <div class="icons" data-aos='fade-in' data-aos-delay='400'>
             <a href="https://github.com/Lemos00">
               <img src="./assets/images/icons/github-icon.png" alt="github icon" class="landing-icons">
             </a>
