@@ -30,8 +30,8 @@
               to use way for lectures to deliver their content. <br>
               In this project, I designed and implemented the tools used by the lecturer
               in the whiteboard using the <b>html canvas, javascript, css and Paper.js</b>. <br>
-              Among these tools is the paint bucket, which used the four way version of the
-              flood fill algorithm to function nicely.
+              Among these tools is the paint bucket, which used the <b>four way version of the
+              flood fill algorithm </b> to function nicely.
 
             </p>
             <a href="https://github.com/Lemos00">
@@ -45,6 +45,28 @@
             <img src="../assets/images/projects/liteboard.jpg" alt="">
           </div>
         </div>
+
+        <div class="projects-item" data-aos='fade-in' data-aos-delay='300'>
+          <div class="projects-description">
+            <h6>DOC-IN-POC (winner)</h6>
+            <p>
+              DocInPoc is your personal doctor in your pocket. <br />
+              This prototype version aims for measuring the most likely disease its user
+              could have according to their symptoms. 
+              It also Diagnoses its patient based on the region
+              they are located at. <br />
+              I worked on the integration between <b>Voiceflow and dialogflow</b> APIs and also
+              some complementary code for the diagnose of common diseases such as Flu or cold using
+              <b>Javascript</b>
+            </p>
+            <a href="https://devpost.com/software/docinpoc">
+              <img src="../assets/images/icons/devpost-png.png" alt="github icon"  class="project-icons">
+            </a>
+          </div>
+          <div class="projects-img has-margin-right">
+            <img src="../assets/images/projects/doc-in-poc.jpg" alt="">
+          </div>
+        </div>
       </div>
     </section>
 </template>
@@ -54,56 +76,3 @@ export default {
     name: 'Projects'
 }
 </script>
-
-<style scoped>
-.projects-item{
-    display: flex;
-    align-items: center;
-    margin-bottom: 5rem;
-    margin: 1rem auto;
-    width: 70%;
-    height: 30rem;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 16px;
-}
-
-.projects-description{
-    flex: 1;
-    text-align: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.projects-description h6{
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 200;
-    opacity: 0.5;
-    margin-bottom: 3rem;
-}
-
-.project-icons {
-    height: 30px;
-    width: 30px;
-    filter: invert(100%);
-    margin-top: 3rem;
-    margin-left: 1rem;
-}
-
-.projects-description p{
-    font-size: 1.5rem;
-}
-
-.projects-img{
-    flex: 0.5;
-    margin-left: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.projects-img img{
-    width: 80%;
-    float: right;
-    border: 3px solid white;
-}
-</style>

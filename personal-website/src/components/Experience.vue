@@ -10,10 +10,14 @@
             <li class="date" data-date="May 2020 - Aug 2020">
               <h1>Insight Lab @ Western University | SWE intern</h1>
               <p>
-                At Insight Lab, I had the opportunity to work in the lexical analysis
-                of documents used in a search engine made for researchers <br>
-                test <br>
-                tes
+                >> Worked on a research focused search engine that deeply analyzes
+                research papers with the goal of presenting the most detailed breakdown
+                of documents as possible<br><br>
+                >> Made lexical analysis of research documents and extraction of 
+                lexical data with <b>Elasticsearch and Vue.js</b><br><br>
+                >> Greatly improved the visualization of data by creating
+                components with <b>Vuejs and D3.js</b><br><br>
+                >> All code was reviewed, perfected and shipped to production
               </p>
             </li>
           </ul>

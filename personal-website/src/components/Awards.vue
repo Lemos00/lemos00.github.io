@@ -3,7 +3,7 @@
       <div class="container">
         <div class="section-heading">
           <h1>Awards</h1>
-          <h6>These are my awardss</h6>
+          <h6>Academic and tech awards</h6>
         </div>
         <div class="awards-item" data-aos='fade-in' data-aos-delay='300'>
           <div class="awards-description has-margin-right">
@@ -11,9 +11,9 @@
             <h1>Top 6 Hacks - McHacks 7</h1>
             <p>
               DocInPoc was recognized as one of the Top 6 Hacks of McHacks 7, McGill's biggest hackathon  <br>
-              The prize was given to hacks that demonstrated great impact
+              The prize was given to hacks that demonstrated great potential of impact
               within their area of influence <br> as well as a great pitch from
-              our team
+              the team
             </p>
           </div>
         </div>
@@ -30,10 +30,10 @@
         <div class="awards-item" data-aos='fade-in' data-aos-delay='300'>
           <div class="awards-description has-margin-right">
             <h6>Academic</h6>
-            <h1>St john the devine - international award (medway HS)</h1>
+            <h1>St. John the Divine - International Award (medway HS)</h1>
             <p>
               Awarded to international students who demonstrated impressive
-              positive impact within Medway High School both in academic and
+              positive impact, resiliency and perseverance within Medway High School both in academic and
               extra curricular activities
             </p>
           </div>

@@ -24,9 +24,6 @@
           <li>
             <a href="#awards" class="nav-link" @click="changeMenu">Awards</a>
           </li>
-          <li>
-            <a href="#contact" class="nav-link" @click="changeMenu">Contact me</a>
-          </li>
         </ul>
       </nav>
         <div class="landing-text">
@@ -36,7 +33,7 @@
             <a href="https://github.com/Lemos00">
               <img src="./assets/images/icons/github-icon.png" alt="github icon" class="landing-icons">
             </a>
-            <a href="https://www.linkedin.com/feed/">
+            <a href="https://www.linkedin.com/public-profile/in/gabriel-lemos-rodrigues-b96824198/?challengeId=AQH6iKldX2AKxgAAAXQrU-akdhO21UuzJYHrvwhQmlr3ScLKtzJsheZwfs7osibLRbauv6bXa0vLfy9Pdw9T0raoZREStDberw&submissionId=a1264fe3-20da-2e16-b0c3-f8d88d22aa7d">
               <img src="./assets/images/icons/linkedin-icon.png" alt="linkedin icon" class="landing-icons">
             </a>
             <a href="https://devpost.com/Lemos00?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
@@ -53,29 +50,6 @@
     <Experience></Experience>
     <Projects></Projects>
     <Awards></Awards>
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Contact me</h1>
-          <h6>This is the part where you contact me</h6>
-        </div>
-        <form action="">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter you Name" required>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Enter you email" required>
-          <label for="email">Services:</label>
-          <select name="services" id="service">
-            <option value="">Question</option>
-            <option value="">Employment</option>
-            <option value="">Other</option>
-          </select>
-          <label for="subject">Subject:</label>
-          <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </section>
   </div>
 </template>
 
