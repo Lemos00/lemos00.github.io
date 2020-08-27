@@ -34,7 +34,7 @@
               flood fill algorithm </b> to function nicely.
 
             </p>
-            <a href="https://github.com/Lemos00">
+            <a href="https://github.com/jeverd/lecture-experience">
               <img src="../assets/images/icons/github-icon.png" alt="github icon"  class="project-icons">
             </a>
             <a href="https://liteboard.io/">
