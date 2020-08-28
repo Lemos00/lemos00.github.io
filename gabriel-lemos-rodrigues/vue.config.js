@@ -2,6 +2,6 @@
 
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/gabriel-lemos-rodrigues/'
+      ? '/lemos00.github.io/'
       : '/'
   }
