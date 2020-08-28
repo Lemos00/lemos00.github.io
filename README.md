@@ -1,5 +1,5 @@
 # Personal_website
-Hey there! This is the repo for my personal webiste.
+Hey there! This is the repo for my personal website.
 
 You can view it here: https://lemosr.com/
 
