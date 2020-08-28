@@ -577,6 +577,14 @@ For now, this is of no need :)
     }
 }
 @media screen and (max-width: 600px) {
+    .timeline ul{
+        margin: auto auto;
+    }
+
+    .timeline .date::before{
+        content: '';
+    }
+    
     .menu-toggler{
         top: 2rem;
         right: 2rem;
