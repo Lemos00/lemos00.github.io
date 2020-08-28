@@ -1,5 +1,7 @@
 # Personal_website
-Development of my personal website using Vue.js
+Hey there! This is the repo for my personal webiste.
+
+You can view it here: https://lemosr.com/
 
 # Technologies used:
   - Vue.js
