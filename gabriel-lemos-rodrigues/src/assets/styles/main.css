@@ -6,7 +6,7 @@
 
 html{
     font-size: 10px;
-    font-family: Cambria;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     color: #eee;
 }
 
@@ -129,7 +129,7 @@ li{
 }
 
 .nav-link{
-    font-family: Cambria;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 5rem;
     padding: 1rem;
 }
@@ -210,7 +210,7 @@ li{
 
 .landing-text h1{
     font-size: 7rem;
-    font-family: Cambria;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     background:linear-gradient(to bottom, #ffa41b, #ff5151); /*linear-gradient(to top, #ffbd69, #ff6363) // #d3f4ff // orange: #ffa41b*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -584,7 +584,7 @@ For now, this is of no need :)
     .timeline .date::before{
         content: '';
     }
-
+    
     .menu-toggler{
         top: 2rem;
         right: 2rem;
