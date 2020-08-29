@@ -540,6 +540,10 @@ For now, this is of no need :)
         font-size: 3rem;
     }
 
+    .about-details p{
+        margin: auto auto;
+    }
+
     .about-details .nav-list{
         flex-direction: initial;
     }
@@ -607,6 +611,8 @@ For now, this is of no need :)
     }
 
     .profile-img img{
+        width: 32rem;
+        height: 32rem;
         margin: 0 auto;
     }
 
