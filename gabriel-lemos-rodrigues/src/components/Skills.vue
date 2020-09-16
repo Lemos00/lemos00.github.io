@@ -26,7 +26,7 @@
               <img src="../assets/images/icons/html-tag.png" alt="CHANGE ICON">
             </div>
             <h1>Web</h1>
-            <p><b>Vue.js</b> / <b>Nuxt.js</b> / <b>D3.js</b> / <b>HTML</b> / <b>CSS</b></p>
+            <p><b>Vue.js</b> / <b>Nuxt.js</b> / <b>D3.js</b> / <b>HTML</b> / <b>CSS</b> / <b>Node</b></p>
           </div>
         </div>
       </div>

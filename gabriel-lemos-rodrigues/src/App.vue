@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <canvas id="canvas1"></canvas> -->
     <header>
       <div :class="menuClass" @click="changeMenu">
         <div class="bar half start"></div>
