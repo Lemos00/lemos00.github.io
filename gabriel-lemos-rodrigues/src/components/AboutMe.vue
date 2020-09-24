@@ -25,7 +25,7 @@
             of the computer science world while also being able to apply that knowledge elsewhere, so  Western was my top choice University. By applying the knowledge I acquire
             participating in hackathons, developing projects and studying for my classes, I can go above and beyond what my academics can offer alone. I am able to strive
             for the utmost best of this field while simultaneously building connections and socializing. This is exactly what I want for my future and career. <br /><br />
-            This Year, I will have the pleasure of being a "year-long" orientation leader at Western. I will be a mentor for
+            This year, I will have the pleasure of being a "year-long" orientation leader at Western. I will be a mentor for
             first years and help them go through their transition from Highschool to University the smoothest way possible. Being a mentor
             means more than just helping them with their problems. It also means being a refence for your major/field of study. This
             is also a reason why I chose to get into this position, as it will push me into developing myself both my technical and social skills even more.

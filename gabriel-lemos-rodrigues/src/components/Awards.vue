@@ -30,7 +30,7 @@
         <div class="awards-item" data-aos='fade-in' data-aos-delay='300'>
           <div class="awards-description has-margin-right">
             <h6>Academic</h6>
-            <h1>St. John the Divine - International Award (medway HS)</h1>
+            <h1>St. John the Divine - International Award (Medway HS)</h1>
             <p>
               Awarded to international students who demonstrated impressive
               positive impact, resiliency and perseverance within Medway High School both in academic and
