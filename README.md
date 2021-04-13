@@ -1,10 +1,24 @@
-# Personal_website
-Hey there! This is the repo for my personal website.
+# personal-website
 
-You can view it here: https://lemosr.com/
+## Project setup
+```
+npm install
+```
 
-# Technologies used:
-  - Vue.js
-  - HTML / CSS
-  - javascript
-  - AOS library
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
