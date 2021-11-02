@@ -7,12 +7,26 @@
         </div>
         <div class="timeline" data-aos='fade-in' data-aos-delay='300'>
           <ul>
+            <li class="date" data-date="May 2021 - Aug 2021">
+              <h1>Microsoft | SWE intern</h1>
+              <p>
+                >> Took part in the <b>Microsoft Garage</b> internship program<br><br>
+                >> Worked in the <b>core messaging team of Microsoft Teams</b>, with tasks
+                related to <b>accessibility and performance</b> of the application<br><br>
+                >> Developed an extension for Microsoft Teams that enabled a more personal and engaging messaging experience.
+                Built using React with TypeScript and GraphQL to support the Web, Windows, Linux, VDI, and MacOS clients<br><br>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="timeline" data-aos='fade-in' data-aos-delay='300'>
+          <ul>
             <li class="date" data-date="May 2020 - Aug 2020">
               <h1>Insight Lab @ Western University | SWE intern</h1>
               <p>
                 >> Worked on a research focused search engine that deeply analyzes
-                research papers with the goal of presenting the most detailed breakdown
-                of documents as possible<br><br>
+                academic papers with the goal of presenting the most detailed breakdown
+                of documents<br><br>
                 >> Made lexical analysis of research documents and extraction of 
                 lexical data with <b>Elasticsearch and Vue.js</b><br><br>
                 >> Greatly improved the visualization of data by creating

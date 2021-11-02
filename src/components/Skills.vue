@@ -19,14 +19,14 @@
               <img src="../assets/images/icons/database-icon.png" alt="CHANGE ICON">
             </div>
             <h1>other</h1>
-            <p> <b>Git</b> / <b>Linux</b> / <b>Elasticsearch</b> / <b>dialogflow</b></p>
+            <p> <b>Git</b> / <b>Apollo</b> / <b>GraphQL</b> / <b>Linux</b> / <b>Jest</b> / <b>Elasticsearch</b> / <b>dialogflow</b></p>
           </div>
           <div class="skill" data-aos='fade-in' data-aos-delay='700'>
             <div class="icon-container">
               <img src="../assets/images/icons/html-tag.png" alt="CHANGE ICON">
             </div>
             <h1>Web</h1>
-            <p><b>Vue.js</b> / <b>Nuxt.js</b> / <b>D3.js</b> / <b>HTML</b> / <b>CSS</b> / <b>Node</b></p>
+            <p><b>Vue.js</b> / <b>Nuxt.js</b> / <b>React</b> / <b>D3.js</b> / <b>HTML</b> / <b>CSS</b> / <b>Node</b></p>
           </div>
         </div>
       </div>

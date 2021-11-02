@@ -13,23 +13,26 @@
           </div>
           <p data-aos='fade-right' data-aos-delay='400' class="about-text">
             Hey there! <br /> <br />
+            
             I'm Gabriel and I'm an international student from Brazil at <u><a href="https://www.uwo.ca/">Western University</a></u>.
-            I'm currently in my second year of Computer Science. <br /> <br />
-            People tend to ask me Why left Brazil to study in Canada. Initially, when I first arrived here, my answer to that question was that
-            I wanted to develop my english skills and get familiar with another culture other than my own. However, as time went by, my answer 
-            changed. My time here in Canada led me to the realization of how important one's culture is for decision making in one's life. This is an unique concept to me, and I want to explore it
-            more.<br /><br />
-            After speding some time here in Canada, I decided to go into CS. Canada's "tech culture" was a huge factor in this decision. I never imagined
-            such big events, like hackathons, that involved around coding to exist for students here.<br /><br />
-            With all these factors, I could see how great doing University outside of Brazil would be. So, I made my decision to stay. I wanted to experience the best
-            of the computer science world while also being able to apply that knowledge elsewhere, so  Western was my top choice University. By applying the knowledge I acquire
-            participating in hackathons, developing projects and studying for my classes, I can go above and beyond what my academics can offer alone. I am able to strive
-            for the utmost best of this field while simultaneously building connections and socializing. This is exactly what I want for my future and career. <br /><br />
-            This year, I will have the pleasure of being a "year-long" orientation leader at Western. I will be a mentor for
-            first years and help them go through their transition from Highschool to University the smoothest way possible. Being a mentor
-            means more than just helping them with their problems. It also means being a refence for your major/field of study. This
-            is also a reason why I chose to get into this position, as it will push me into developing myself both my technical and social skills even more.
-            I truly believe that this will make me reach even farther within the CS world and strive for the best.<br /><br />
+            I'm currently in my third year of Computer Science. <br /> <br />
+            
+            When asked about why I left Brazil to study in Canada, my initial answer was that I wanted to 
+            develop my english skills. However, as time went by, that answer changed. I realized how important one's own culture and the knowledge of other cultures is for decision making in one's life. 
+            This was an unique concept to me, and I wanted to explore it more.<br /><br />
+            
+            After spending some time in Canada, I decided to go into CS. Canada's "tech culture" was a huge factor in this decision. I never imagined
+            such big events, like Hackathons, that revolved around coding to exist for students here.<br /><br />
+            
+            With all these factors, I could see how great doing university outside of Brazil would be. Western was my top choice university, due to their commitment of providing a stellar
+            student experience, in addition to the best of the Computer Science world.
+            Utilizing the educational basis Western offers me, I am able to go beyond academics alone and explore different corners of CS through Hackathons, projects
+            and internships. Thus, I am able to strive for the utmost best of this field while simultaneously building connections and being passionate about my future and career.<br /><br />
+            
+            During my second year at Western, I had the pleasure of being a "year-long" orientation leader. I was a mentor for
+            first years and helped them go through their transition from highschool to university smoothly. Being a mentor
+            meant more than just helping them with possible problems; it meant being a role model. This experience pushed me to learn more
+            about myself, and learn different ways to deal with issues in a quick and efficient manner, by being present as both a mentor and a friend.<br /><br />
           </p>
         </div>
       </div>
