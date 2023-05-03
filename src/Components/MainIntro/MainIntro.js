@@ -8,13 +8,15 @@ import EMAIL_ICON from "../assets/images/icons/mail-logo.png";
 
 function MainIntro() {
     const [menuClass, setMenuClass] = React.useState("menu-toggler");
-    const [navClass, setNavClass] = React.useState("menu-toggler");
+    const [navClass, setNavClass] = React.useState("top-nav");
 
     const changeMenu = () => {
         if (menuClass === "menu-toggler") {
             setMenuClass("menu-toggler open");
+            setNavClass("top-nav open");
         } else {
             setMenuClass("menu-toggler");
+            setNavClass("top-nav");
         }
     }
 
@@ -68,19 +70,19 @@ function MainIntro() {
             <nav className={navClass}>
                 <ul className="nav-list">
                     <li>
-                        <a href="#about" className="nav-link"></a>   
+                        <a href="#about" className="nav-link">About me</a>   
                     </li>
                     <li>
-                        <a href="#skills" className="nav-link"></a>   
+                        <a href="#skills" className="nav-link">Skills</a>   
                     </li>
                     <li>
-                        <a href="#experience" className="nav-link"></a>   
+                        <a href="#experience" className="nav-link">Experience</a>   
                     </li>
                     <li>
-                        <a href="#projects" className="nav-link"></a>   
+                        <a href="#projects" className="nav-link">Projects</a>   
                     </li>
                     <li>
-                        <a href="#awards" className="nav-link"></a>   
+                        <a href="#awards" className="nav-link">Awards</a>   
                     </li>
                 </ul>
             </nav>
