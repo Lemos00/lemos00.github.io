@@ -20,14 +20,6 @@ function MainIntro() {
         }
     }
 
-    const changeNav = () => {
-        if (navClass === "menu-toggler") {
-            setNavClass("menu-toggler open");
-        } else {
-            setNavClass("menu-toggler");
-        }
-    }
-
 
     const iconsList = [
         {
