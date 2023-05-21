@@ -79,7 +79,10 @@ function MainIntro() {
                 </ul>
             </nav>
             <div className="landing-text">
-                <h1>Gabriel Lemos Rodrigues</h1>
+                <div className="nameWrapper">
+                    <h1>Gabriel Lemos Rodrigues</h1>
+                    <div className="test"></div>
+                </div>
                 <h6>Incoming Software Engineer @ Microsoft</h6>
                 <div className="icons">
                     {iconsList.map((iconInfo) => {
@@ -89,8 +92,6 @@ function MainIntro() {
                     })}
                 </div>
             </div>
-
-
         </div>
     );
 }
